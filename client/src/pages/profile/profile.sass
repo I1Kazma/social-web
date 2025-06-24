@@ -1,0 +1,41 @@
+.profile
+    display: flex
+
+    &Right
+        flex: 9
+
+    &Cover
+        height: 320px
+        position: relative
+
+    &CoverImg
+        width: 100%
+        height: 250px
+        object-fit: cover
+
+    &UserImg
+        width: 150px
+        height: 150px
+        border-radius: 50%
+        object-fit: cover
+        position: absolute
+        left: 0
+        right: 0
+        margin: auto
+        top: 150px
+        border: 3px solid white
+
+    &Info
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+    &InfoName
+        font-size: 24px
+
+    &InfoDesc
+        font-weight: 300
+
+    &RightBottom
+        display: flex
